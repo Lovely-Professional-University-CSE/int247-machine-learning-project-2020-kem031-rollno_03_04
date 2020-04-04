@@ -52,5 +52,7 @@ It'll open a new window of OpenCV and then identifies your Facial Expression. We
 # *Some Facial Emotions* :
 
 ![face_emotion1](https://www.psychonomic.org/resource/resmgr/featured_content/content_pictures/8.26.16emofaces.png)
+
+*Analyzing Each dimensions of the Face*
 ![face_emotion2](https://i.pinimg.com/originals/37/3c/4a/373c4a10b7185a59b33a79dce3340c74.jpg)
 ![face_emotion3](https://acart.com/wp-content/uploads/2017/04/facial-recognition-img2.jpg)
