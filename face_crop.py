@@ -1,5 +1,4 @@
 ## This program first ensures if the face of a person exists in the given image or not then if it exists, it crops
-## the image of the face and saves to the given directory.
 
 ## Importing Modules
 import cv2
