@@ -2,11 +2,11 @@
 
 **Facial Expression or Facial Emotion Detector can be used to know whether a person is sad, happy, angry and so on only through his/her face. This Repository can be used to carry out such a task. It uses your WebCamera and then identifies your expression in Real Time. Yeah in real-time!**
 
-## PLAN
+> ## PLAN:
 
 This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program from the last video and set up everything in realtime.
 
-## DEPENDENCIES
+> ## DEPENDENCIES
 
 Hit the following in CMD/Terminal if you don't have already them installed:
 
@@ -16,7 +16,7 @@ That's it for now.
 
 So let's take a brief look at each step.
 
-## STEP 1 - Implementation of OpenCV HAAR CASCADES :
+> ## STEP 1 - Implementation of OpenCV HAAR CASCADES :
 
 I'm using the "Frontal Face Alt" Classifier for detecting the presence of Face in the WebCam.
 
@@ -27,7 +27,7 @@ Next, we have the task to load this file, which can be found in the label.py pro
 		
 Now everything can be set with the Label.py Program. So let's move to the next Step.
 
-## STEP 2 - ReTraining the Network - Tensorflow Image Classifier:
+> ## STEP 2 - ReTraining the Network - Tensorflow Image Classifier:
 
 We are going to create an Image classifier that identifies whether a person is sad, happy and so on and then show this text on the OpenCV Window. This step will consist of several sub steps:
 
@@ -42,7 +42,7 @@ We are going to create an Image classifier that identifies whether a person is s
         python retrain.py --output_graph=retrained_graph.pb --output_labels=retrained_labels.txt --architecture=MobileNet_1.0_224 --image_dir=images
 That's it for this Step.
 
-## STEP 3 - Importing the ReTrained Model and Setting Everything Up:
+> ## STEP 3 - Importing the ReTrained Model and Setting Everything Up:
 
 Finally, I've put everything under the "label_image.py" file from where you can get evrything. Now run the "label.py" program by typing the following in CMD/Terminal:
 
