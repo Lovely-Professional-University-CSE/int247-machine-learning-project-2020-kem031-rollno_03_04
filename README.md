@@ -2,11 +2,11 @@
 
 **Facial Expression or Facial Emotion Detector can be used to know whether a person is sad, happy, angry and so on only through his/her face. This Repository can be used to carry out such a task. It uses your WebCamera and then identifies your expression in Real Time. Yeah in real-time!**
 
-# PLAN
+## PLAN
 
 This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program from the last video and set up everything in realtime.
 
-# DEPENDENCIES
+## DEPENDENCIES
 
 Hit the following in CMD/Terminal if you don't have already them installed:
 
